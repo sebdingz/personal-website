@@ -429,6 +429,11 @@ article .icon{
     margin-top: 3rem;
 }
 
+.article-container.hide-and-seek{
+    margin-top: 4rem;
+}
+
+
 
 .experience-sub-title.project-title2{
     font-size: 1.3rem;
@@ -441,6 +446,7 @@ article .icon{
 }
 
 .project-title{
+    white-space: nowrap;
     margin: 1rem;
     color: black;
 }
