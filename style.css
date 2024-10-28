@@ -411,7 +411,21 @@ article .icon{
 .project-img.project3{
     width: 100px;
     height: auto;
+}
 
+.project-img.project4{
+    width: 300px;
+    height: auto;
+}
+
+.project-img.project5{
+    width: 300px;
+    height: auto;
+}
+
+.project-img.project6{
+    width: 300px;
+    height: auto;
 }
 
 .color-container{
@@ -435,7 +449,9 @@ article .icon{
     margin-top: 4rem;
 }
 
-
+.article-container.agenda{
+    margin-top: 4rem;
+}
 
 .experience-sub-title.project-title2{
     font-size: 1.3rem;
