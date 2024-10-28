@@ -283,6 +283,7 @@ section{
 
 #about{
     position: relative;
+    padding-top: 100px;
 }
 
 .about-containers{
@@ -294,7 +295,7 @@ section{
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    margin-bottom: 4rem;
+    
 }
 
 .text-container{
@@ -353,7 +354,7 @@ section{
 
 #experience{
     position: relative;
-    
+    padding-top: 100px;
 }
 
 #experience .section__text__p1{
@@ -404,6 +405,7 @@ article .icon{
 
 #projects{
     position: relative;
+    padding-top: 100px;
 }
 
 .project-img.project3{
