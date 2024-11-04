@@ -337,6 +337,8 @@ section{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: left;
+    display: inline-block;
+    width: 10000px; 
 }
 
 .section-container{
@@ -379,6 +381,8 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    white-space: nowrap;
+
 }
 
 .article-container{
