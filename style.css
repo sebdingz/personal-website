@@ -337,8 +337,6 @@ section{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: left;
-    display: inline-block;
-    width: 10000px; 
 }
 
 .section-container{
@@ -377,13 +375,13 @@ section{
     text-align: center;
 }
 
-.experience-details-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    white-space: nowrap;
-
+.experience-details-container {
+    display: flex;              /* Use flexbox for horizontal alignment */
+      /* Smooth scrolling */
+    width: 100%;   
+            /* Full width for the container */
 }
+
 
 .article-container{
     display: flex;
@@ -517,11 +515,31 @@ article .icon{
     /* padding: 2rem; */
     /* border-radius: 2rem; */
     display: flex;
-    justify-content: center;
+    justify-content: flex;
     flex-direction: column;
-    overflow-x: hidden; 
     width: 100%; /* 宽度保持 100% */
+    overflow-x: auto;
+    overflow-y: hidden;          /* Enable horizontal scrolling */
+    scroll-behavior: smooth; 
+    height: 500px;
 }
+
+.experience-details-wrapper::-webkit-scrollbar {
+    width: 8px;                /* 设置滚动条的宽度 */
+    height: 8px;               /* 设置滚动条的高度 */
+    background: transparent;   /* 设置背景透明 */
+}
+
+.experience-details-wrapper::-webkit-scrollbar-thumb {
+    background: #888;          /* 设置滚动条的颜色 */
+    border-radius: 10px;       /* 设置滚动条的圆角 */
+}
+
+.experience-details-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555;          /* 鼠标悬停时的颜色 */
+}
+
+
 /* CONTACT */
 
 #contact{
